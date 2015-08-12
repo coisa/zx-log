@@ -1,0 +1,25 @@
+{
+  "name": "coisa/zx-log",
+  "description": "Component for extend Zend Log",
+  "license": "MIT",
+  "keywords": [
+    "zx",
+    "zf2",
+    "log",
+    "logging"
+  ],
+  "homepage": "https://github.com/coisa/zx-log",
+  "autoload": {
+    "psr-4": {
+      "Zx\\Log\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.5",
+    "zendframework/zend-log": "~2.5",
+    "zendframework/zend-http": "~2.5",
+    "zendframework/zend-serializer": "~2.5"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
