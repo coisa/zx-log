@@ -35,7 +35,8 @@ class Logger extends \Zend\Log\Logger
     public function log($priority, $message, $extra = array())
     {
         $this->getFormatter()->setFormat($message);
-        return parent::log($priority, $this->getFormatter()->format($extra), $extra);exit;
+
+        return parent::log($priority, $this->getFormatter()->format($extra), $extra);
     }
 
     /**
